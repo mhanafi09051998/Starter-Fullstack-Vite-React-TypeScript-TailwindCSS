@@ -1,13 +1,35 @@
-Perbedaan Kunci: npm run dev vs npm run build
-Penting untuk memahami perbedaan antara dua perintah ini.
+# 🚀 Memahami Perintah NPM: `dev` vs `build`
 
-npm run dev:
-Tujuan: Untuk pengembangan (development).
-Proses: Menjalankan server lokal yang cepat dengan HMR.
-Output: Tidak ada file yang dihasilkan, semua berjalan di memori untuk kecepatan maksimal.
+Dalam pengembangan web modern dengan Vite, Node.js, atau framework sejenis, dua perintah yang akan sering Anda temui adalah `npm run dev` dan `npm run build`. Keduanya sangat penting, tetapi memiliki tujuan yang sama sekali berbeda.
 
-npm run build:
-Tujuan: Untuk produksi (production).
-Proses: Mengompilasi dan mengoptimalkan semua kode Anda (HTML, CSS, JS) menjadi file statis yang ringkas dan siap untuk diunggah ke hosting.
-Output: Menghasilkan folder dist yang berisi versi final dari situs web Anda. 🚀
-Jadi, singkatnya: gunakan npm run dev selama Anda menulis kode, dan gunakan npm run build hanya sekali di akhir ketika Anda sudah siap untuk mempublikasikan situs web Anda.
+Memahami kapan dan mengapa menggunakan masing-masing perintah adalah kunci untuk alur kerja yang efisien.
+
+---
+
+## 🆚 Perbandingan Head-to-Head
+
+| Fitur                 | `npm run dev`                                         | `npm run build`                                             |
+| --------------------- | ----------------------------------------------------- | ----------------------------------------------------------- |
+| 🎯 **Tujuan Utama** | **Pengembangan (Development)** | **Produksi (Production)** |
+| ⚙️ **Proses** | Menjalankan server lokal dengan Hot Module Replacement (HMR) | Mengompilasi & mengoptimalkan semua aset (JS, CSS, gambar) |
+| 📁 **Output** | Berjalan di memori untuk kecepatan maksimal (tidak ada file output) | Menghasilkan folder `dist/` berisi file statis final      |
+| ⚡ **Kecepatan** | Sangat Cepat, perubahan tampil instan                 | Lebih lambat, karena melakukan optimasi menyeluruh        |
+| 👨‍💻 **Kapan Digunakan** | Saat menulis kode, mendesain, dan menguji coba fitur     | Saat aplikasi sudah siap untuk di-deploy ke server hosting |
+
+---
+
+## 🤔 Jadi, Kapan Saya Harus Menggunakannya?
+
+### 💻 Gunakan `npm run dev`...
+...setiap saat Anda sedang dalam proses pengembangan. Perintah ini adalah teman terbaik Anda saat:
+- Menulis kode baru.
+- Memperbaiki bug.
+- Mendesain tampilan UI.
+- Menguji coba fungsionalitas secara langsung di browser.
+
+### 🌐 Gunakan `npm run build`...
+...hanya ketika semua proses pengembangan telah selesai dan Anda siap untuk "Go Live!". Perintah ini Anda jalankan sebagai langkah terakhir sebelum:
+- Mengunggah file website Anda ke layanan hosting (seperti Vercel, Netlify, atau shared hosting).
+- Memberikan hasil akhir proyek kepada klien.
+
+> **Kesimpulan Sederhana:** Gunakan `npm run dev` selama Anda **mengerjakan** aplikasi, dan jalankan `npm run build` hanya sekali saat Anda siap untuk **mempublikasikan** aplikasi Anda ke seluruh dunia.
