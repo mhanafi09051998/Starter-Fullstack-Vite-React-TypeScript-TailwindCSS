@@ -1,0 +1,21 @@
+# Project Configuration Prompt
+
+This is a Vite + React + TypeScript project with Tailwind CSS.
+
+## Available Scripts
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run lint` - Run ESLint
+- `npm run preview` - Preview production build
+
+## Project Structure
+- `src/` - Source code directory
+- `public/` - Static assets
+- `dist/` - Built files (production)
+
+## Features
+- React 18 with TypeScript
+- Vite for fast development
+- Tailwind CSS for styling
+- ESLint for code linting
+- PostCSS for CSS processing

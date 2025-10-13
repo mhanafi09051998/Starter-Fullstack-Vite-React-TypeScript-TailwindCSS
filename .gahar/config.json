@@ -1,0 +1,11 @@
+{
+  "project": {
+    "name": "vite-react-typescript-project",
+    "version": "1.0.0",
+    "description": "A Vite + React + TypeScript project"
+  },
+  "settings": {
+    "autoSave": true,
+    "hotReload": true
+  }
+}
