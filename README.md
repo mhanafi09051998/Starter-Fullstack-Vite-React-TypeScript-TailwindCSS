@@ -25,10 +25,10 @@ Make sure you have Node.js 18+ installed on your machine.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/vite-react-typescript-project.git
+git clone https://github.com/mhanafi09051998/Starter-Fullstack-Vite-React-TypeScript-TailwindCSS.git
 
 # Navigate to project directory
-cd vite-react-typescript-project
+cd Starter-Fullstack-Vite-React-TypeScript-TailwindCSS
 
 # Install dependencies
 npm install
